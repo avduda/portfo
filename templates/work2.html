@@ -16,7 +16,7 @@
   <link href="./static/assets/favicon.ico" rel="icon">  -->
   <link rel="shortcut icon" href="{{url_for('static', filename = 'favicon.ico')}}">
 
-  <title>About me</title>  
+  <title>Portfolio</title>  
 
 <link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
 
@@ -25,7 +25,7 @@
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
- <!-- Add your content of header -->
+<!-- Add your content of header -->
 <header>
   <nav class="navbar  navbar-fixed-top navbar-default">
     <div class="container">
@@ -45,52 +45,67 @@
         </ul>
 
 
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./work1.html" title="">001</a></li>
+            <li><a href="./work2.html" title="" class="active">002</a></li>
+            <li><a href="./work3.html" title="">003</a></li>
+            <li><a href="./work4.html" title="">004</a></li>
+            <li><a href="./work5.html" title="">005</a></li>
+            <li><a href="./work6.html" title="">006</a></li>
+          </ul>
+
+
       </div> 
     </div>
   </nav>
 </header>
-
 <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">03 : About me</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work002.png" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">002 : AWS Production Model Deployment</h1>
           </div>
-          
-          <div class="row">
-            <!--<div class="col-md-10 col-md-offset-1">  -->
-            <div class="col-md-12 col-md-offset-1"> 
-              <div class="row">
-                <div class="col-xs-12 col-md-6">
-                  <h3>preface</h3>
-                  <p>I am a Certified Machine Learning and AWS Cloud Professional having a M.Sc. in Artificial Intelligence, with an uncurable desire to find answers to data problems, constantly learn, and share my knowledge with others.</p>
-                  <h3>the beginning </h3>
-                  <p>My experience in predictive analytics and machine learning started at a telecoms company 10 years ago, with a model to address the sharp increase in data traffic, which brought resource savings and a granted patent.
-                  <h3>the road</h3>
-                  <p>
-                  Since then, extracting insights from real-time data to generate tangible value has been at the forefront of my work, across various industries. For example, to make vehicles slow down automatically to avoid collisions, or power supplies that predict and counteract voltage disturbances.
-                  </p>
-                  <h3>the blank pages</h3>
-                  <p>
-                  My modus operandi is learning to create and creating to learn. I am open to working together to use data in the best possible way to bring long-term value. I am trying to speak your language, not mine.
-                  </p>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <br>
-                  <img src="./static/assets/images/Eu2.jpg" class="img-responsive" alt="">
-                </div>
-              </div>
+          <p><span style="color:blue">Computer Vision: </span>Convolutional Neural Networks, Image Classification, Hyperparameter Tuning<br>
+          <span style="color:blue">AWS: </span>SageMaker, API Gateway, Lambda, S3, EC2, ECR, IAM, CloudWatch, AutoScaling<br>
+          <span style="color:blue">Infrastructure as Code IaC: </span>AWS CloudFormation<br>
+          <span style="color:blue">Build & Deploy: </span>SageMaker Studio Notebooks, Python, Boto3, React, Node.js, MongoDB, AWS   </p>
+
+          <blockquote>
+            <p>A scalable and secure production-ready pneumonia image classification solution deployed on AWS. Used Infrastructure as Code to automatically re-deploy Inference Endpoints as needed. The model has 97% accuracy on the test set.</p>
+            <div class="pull-right">
+                <!-- Irina Martin  -->
+                --><input type=button class="btn btn-default" onClick="parent.open('')" style="background-color:lightcoral" value='See L I V E' >
             </div>
-          </div>
-          
-          
-       </div>
+          </blockquote>
+        </div>
       </div>
+
+      
+      <!--
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-02.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work001-04.jpg" class="img-responsive" alt="">
+      </div>
+
     </div>
   </div>
+</div>
 
-<!--
 
 <footer class="footer-container text-center">
   <div class="container">
@@ -103,7 +118,6 @@
 </footer>
 
 -->
-
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();

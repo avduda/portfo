@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, request, redirect
 import csv
+import os
 
 app = Flask(__name__)
 
@@ -38,3 +39,11 @@ def submit_form():
             return 'Did not save to database'
     else:
         return 'Something went wrong. Please try again.'
+
+'''
+if __name__ == '__main__':
+  #app.run(host='127.0.0.1', port=5000, debug=True)
+  port = int(os.environ.get("PORT", 5000))
+  app.run(host='127.0.0.1', port=port, debug=True)
+
+'''

@@ -12,11 +12,11 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
-  <link href="./static/assets/favicon.ico" rel="icon">  -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png"> -->
+  <!-- <link href="./static/assets/favicon.ico" rel="icon">  -->
   <link rel="shortcut icon" href="{{url_for('static', filename = 'favicon.ico')}}">
 
-  <title>About me</title>  
+  <title>Portfolio</title>  
 
 <link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
 
@@ -25,7 +25,7 @@
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
- <!-- Add your content of header -->
+<!-- Add your content of header -->
 <header>
   <nav class="navbar  navbar-fixed-top navbar-default">
     <div class="container">
@@ -45,52 +45,67 @@
         </ul>
 
 
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./work1.html" title="" class="active">001</a></li>
+            <li><a href="./work2.html" title="">002</a></li>
+            <li><a href="./work3.html" title="">003</a></li>
+            <li><a href="./work4.html" title="">004</a></li>
+            <li><a href="./work5.html" title="">005</a></li>
+            <li><a href="./work6.html" title="">006</a></li>
+          </ul>
+
+
       </div> 
     </div>
   </nav>
 </header>
-
 <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">03 : About me</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work001.png" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">001 : Algorithmic Stock Trading</h1>
           </div>
-          
-          <div class="row">
-            <!--<div class="col-md-10 col-md-offset-1">  -->
-            <div class="col-md-12 col-md-offset-1"> 
-              <div class="row">
-                <div class="col-xs-12 col-md-6">
-                  <h3>preface</h3>
-                  <p>I am a Certified Machine Learning and AWS Cloud Professional having a M.Sc. in Artificial Intelligence, with an uncurable desire to find answers to data problems, constantly learn, and share my knowledge with others.</p>
-                  <h3>the beginning </h3>
-                  <p>My experience in predictive analytics and machine learning started at a telecoms company 10 years ago, with a model to address the sharp increase in data traffic, which brought resource savings and a granted patent.
-                  <h3>the road</h3>
-                  <p>
-                  Since then, extracting insights from real-time data to generate tangible value has been at the forefront of my work, across various industries. For example, to make vehicles slow down automatically to avoid collisions, or power supplies that predict and counteract voltage disturbances.
-                  </p>
-                  <h3>the blank pages</h3>
-                  <p>
-                  My modus operandi is learning to create and creating to learn. I am open to working together to use data in the best possible way to bring long-term value. I am trying to speak your language, not mine.
-                  </p>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <br>
-                  <img src="./static/assets/images/Eu2.jpg" class="img-responsive" alt="">
-                </div>
-              </div>
+          <p><span style="color:blue">Reinforcement Learning: </span>Q-Learning, Markov Decision Processes, epsilon-greedy, Bellman Equation<br>
+          <span style="color:blue">Natural Language Processing: </span>Neural Networks, Sentiment Analysis, Transformers, FinBERT<br>
+          <span style="color:blue">Microservices: </span>REST API, Docker, Kubernetes, Istio<br>
+          <span style="color:blue">Build & Deploy: </span>TensorFlow, Scikit-learn, Python, Flask, PythonAnywhere   </p>
+
+          <blockquote>
+            <p>Reinforcement Learning model helped by Sentiment Analysis of financial news Microservice takes trading actions to increase future returns. The model beats S&P 500 on the test set.</p>
+            <div class="pull-right">
+                <!-- Irina Martin  -->
+                --><input type=button class="btn btn-default" onClick="parent.open('https://tradingml-adrianduda.pythonanywhere.com/')" style="background-color:lightcoral" value='See L I V E' >
             </div>
-          </div>
-          
-          
-       </div>
+          </blockquote>
+        </div>
       </div>
+
+      
+      <!--
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-02.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work001-big.png" class="img-responsive" alt="">
+      </div>
+
     </div>
   </div>
+</div>
 
-<!--
 
 <footer class="footer-container text-center">
   <div class="container">

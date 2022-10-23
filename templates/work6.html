@@ -12,10 +12,11 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
-  <link href="./static/assets/favicon.ico" rel="icon">
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
+  <link href="./static/assets/favicon.ico" rel="icon">  -->
+  <link rel="shortcut icon" href="{{url_for('static', filename = 'favicon.ico')}}">
 
-  <title>Title page</title>  
+  <title>Portfolio</title>  
 
 <link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
 
@@ -45,12 +46,12 @@
 
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
-            <li><a href="./index.html" title="" class="active">001</a></li>
-            <li><a href="./index.html" title="">002</a></li>
-            <li><a href="./index.html" title="">003</a></li>
-            <li><a href="./index.html" title="">004</a></li>
-            <li><a href="./index.html" title="">005</a></li>
-            <li><a href="./index.html" title="">006</a></li>
+            <li><a href="./work1.html" title="">001</a></li>
+            <li><a href="./work2.html" title="">002</a></li>
+            <li><a href="./work3.html" title="">003</a></li>
+            <li><a href="./work4.html" title="">004</a></li>
+            <li><a href="./work5.html" title="">005</a></li>
+            <li><a href="./work6.html" title="" class="active">006</a></li>
           </ul>
 
 
@@ -62,21 +63,26 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
+        <img src="./static/assets/images/work006.png" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">001 : Fringilla sit amet</h1>
+            <h1 class="h2">006 : Face Features Extraction</h1>
           </div>
-          <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
+          <p><span style="color:blue">Computer Vision: </span>OpenCV, Dlib, Single Shot Detection SSD, OpenFace nn4<br>
+          <span style="color:blue">Containers: </span>REST API, Docker<br>
+          <span style="color:blue">Build & Deploy: </span>Python, Flask, Heroku Cloud</p>
 
           <blockquote>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-            <small class="pull-right">Irina Martin</small>
+            <p>Localize multiple faces in an image and detect important facial structures using shape prediction methods. The model has accuracy of 98% for face detection and 97% for face features extraction. </p>
+            <div class="pull-right">
+                <!-- Irina Martin  -->
+                --><input type=button class="btn btn-default" onClick="parent.open('https://faceanalysis-ml.herokuapp.com/')" style="background-color:lightcoral" value='See L I V E' >
+            </div>
           </blockquote>
         </div>
       </div>
 
-      
+      <!--
       
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
@@ -109,6 +115,8 @@
     </div>
   </div>
 </footer>
+
+-->
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
